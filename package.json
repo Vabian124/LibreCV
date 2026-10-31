@@ -7,7 +7,7 @@
     "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
     "lint:js": "node scripts/build.js --check && eslint editor.js scripts feedback/open.js feedback/form.js",
     "lint:css": "stylelint src/css/*.css",
-    "lint:html": "html-validate index.html 404.html feedback/index.html nl/index.html nl/motivatiebrief/index.html nl/cli/index.html nl/sjablonen/softwareontwikkelaar/index.html nl/sjablonen/softwareontwikkelaar/brief/index.html nl/sjablonen/verpleegkundige/index.html nl/sjablonen/verpleegkundige/brief/index.html motivation-letter/index.html templates/index.html templates/software-engineer/index.html templates/software-engineer/letter/index.html templates/nursing/index.html templates/nursing/letter/index.html cli/index.html",
+    "lint:html": "html-validate index.html 404.html feedback/index.html nl/index.html nl/motivatiebrief/index.html nl/cli/index.html nl/privacy/index.html nl/sjablonen/softwareontwikkelaar/index.html nl/sjablonen/softwareontwikkelaar/brief/index.html nl/sjablonen/verpleegkundige/index.html nl/sjablonen/verpleegkundige/brief/index.html motivation-letter/index.html templates/index.html templates/software-engineer/index.html templates/software-engineer/letter/index.html templates/nursing/index.html templates/nursing/letter/index.html cli/index.html privacy/index.html",
     "pdf": "node scripts/pdf.js",
     "test": "node scripts/test.js"
   },

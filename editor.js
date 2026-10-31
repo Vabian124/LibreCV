@@ -406,7 +406,7 @@ const I18N_NL = {
         url: "https-adres van een foto"
     },
     site: {
-        title: "LibreCV — gratis CV-editor, geen account",
+        title: "Gratis CV maken, geen account — LibreCV",
         skip: "Naar de editor",
         lead: "LibreCV is een gratis editor voor een CV of een motivatiebrief. Geen account. Het document blijft op deze computer. De eigen code is publiek domein (CC0).",
         distinct: "Deze LibreCV schrijft een CV of een motivatiebrief. Het is niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
@@ -427,6 +427,7 @@ const I18N_NL = {
         aSaves: "Ja. Opgeslagen, in de kop, houdt kopieën in deze browser. Je kunt er een bewerken, dupliceren of de PDF downloaden. Reset wist het open document en elke kopie. Er wordt niets geüpload.",
         qCode: "Welke licentie heeft de code?",
         aCode: "De eigen code is CC0, zo dicht bij het publieke domein als de wet toelaat. De meegeleverde bibliotheken houden hun eigen licentie.",
+        privacy: "Privacy",
         examples: "Voorbeelden",
         cli: "PDF-commando",
         letterPage: "Motivatiebrief",
@@ -791,7 +792,7 @@ const I18N_EN = {
         url: "https address of a picture"
     },
     site: {
-        title: "LibreCV — free CV builder, no account",
+        title: "Free CV builder, no account — LibreCV",
         skip: "Skip to the builder",
         lead: "LibreCV is a free CV and motivation-letter builder. No account. The document stays on this computer. The project's own code is public domain (CC0).",
         distinct: "This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.",
@@ -812,6 +813,7 @@ const I18N_EN = {
         aSaves: "Yes. Saves, in the header, keeps copies in this browser. You can edit one, duplicate it, or download its PDF. Reset clears the open document and every saved copy. Nothing is uploaded.",
         qCode: "What license is the code under?",
         aCode: "The project's own code is CC0, as close to the public domain as the law allows. The bundled libraries keep their own licenses.",
+        privacy: "Privacy",
         examples: "Examples",
         cli: "PDF command",
         letterPage: "Motivation letter",

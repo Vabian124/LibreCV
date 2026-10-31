@@ -36,7 +36,9 @@ const pages = [
     ["nl/sjablonen/verpleegkundige/index.html", "https://librecv.org/nl/sjablonen/verpleegkundige/"],
     ["nl/sjablonen/verpleegkundige/brief/index.html", "https://librecv.org/nl/sjablonen/verpleegkundige/brief/"],
     ["cli/index.html", "https://librecv.org/cli/"],
-    ["nl/cli/index.html", "https://librecv.org/nl/cli/"]
+    ["nl/cli/index.html", "https://librecv.org/nl/cli/"],
+    ["privacy/index.html", "https://librecv.org/privacy/"],
+    ["nl/privacy/index.html", "https://librecv.org/nl/privacy/"]
 ];
 
 const styleQueries = [];

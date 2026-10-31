@@ -355,7 +355,7 @@ const I18N_EN = {
         url: "https address of a picture"
     },
     site: {
-        title: "LibreCV — free CV builder, no account",
+        title: "Free CV builder, no account — LibreCV",
         skip: "Skip to the builder",
         lead: "LibreCV is a free CV and motivation-letter builder. No account. The document stays on this computer. The project's own code is public domain (CC0).",
         distinct: "This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.",
@@ -376,6 +376,7 @@ const I18N_EN = {
         aSaves: "Yes. Saves, in the header, keeps copies in this browser. You can edit one, duplicate it, or download its PDF. Reset clears the open document and every saved copy. Nothing is uploaded.",
         qCode: "What license is the code under?",
         aCode: "The project's own code is CC0, as close to the public domain as the law allows. The bundled libraries keep their own licenses.",
+        privacy: "Privacy",
         examples: "Examples",
         cli: "PDF command",
         letterPage: "Motivation letter",

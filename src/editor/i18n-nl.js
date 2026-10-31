@@ -355,7 +355,7 @@ const I18N_NL = {
         url: "https-adres van een foto"
     },
     site: {
-        title: "LibreCV — gratis CV-editor, geen account",
+        title: "Gratis CV maken, geen account — LibreCV",
         skip: "Naar de editor",
         lead: "LibreCV is een gratis editor voor een CV of een motivatiebrief. Geen account. Het document blijft op deze computer. De eigen code is publiek domein (CC0).",
         distinct: "Deze LibreCV schrijft een CV of een motivatiebrief. Het is niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
@@ -376,6 +376,7 @@ const I18N_NL = {
         aSaves: "Ja. Opgeslagen, in de kop, houdt kopieën in deze browser. Je kunt er een bewerken, dupliceren of de PDF downloaden. Reset wist het open document en elke kopie. Er wordt niets geüpload.",
         qCode: "Welke licentie heeft de code?",
         aCode: "De eigen code is CC0, zo dicht bij het publieke domein als de wet toelaat. De meegeleverde bibliotheken houden hun eigen licentie.",
+        privacy: "Privacy",
         examples: "Voorbeelden",
         cli: "PDF-commando",
         letterPage: "Motivatiebrief",

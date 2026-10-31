@@ -17,6 +17,7 @@ These pages are separate from the editor, and they are listed in `sitemap.xml`:
 - [https://librecv.org/nl/](https://librecv.org/nl/) is the Dutch introduction
 - [https://librecv.org/motivation-letter/](https://librecv.org/motivation-letter/) and [https://librecv.org/nl/motivatiebrief/](https://librecv.org/nl/motivatiebrief/) are the letter, in English and Dutch
 - [https://librecv.org/templates/](https://librecv.org/templates/) links to a software engineer CV and letter and a registered nurse CV and letter, in English and Dutch. Each page shows the PDF and a link that opens that block in the editor. The names are invented. EN and NL sit at the top of each page
+- [https://librecv.org/privacy/](https://librecv.org/privacy/) and [https://librecv.org/nl/privacy/](https://librecv.org/nl/privacy/) say what stays in the browser. Feedback includes the text only when that box is ticked
 - [https://librecv.org/cli/](https://librecv.org/cli/) is the PDF command: `npm run pdf -- catalog/software-engineer-cv.txt -o cv.pdf`. An id such as `software-engineer-cv` works too. `--lang nl` sets the Dutch headings. The command-line PDF uses a standard typeface and paints the sidebar colour, the photo mark, the labels and the skill chips. The download in the editor uses the typeface on the page. Both carry `document.json`
 
 `/step-1`, `/step-2`, `/step-3` and `/editor` are the editor itself. They stay out of the sitemap. The canonical URL of the editor is `https://librecv.org/`.
