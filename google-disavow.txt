@@ -14,6 +14,24 @@
 # Computer Vision and Machine Learning Organisation". Those URLs are about the
 # computer-vision project, not this CV editor. Kornia.org itself is not listed
 # here, because this check did not show that site linking here.
+#
+# Added 2 Nov 2026 from a Semrush backlink sample. These are the computer-vision
+# project or an obvious guest-post page, not this CV editor. github.com/LibreCV
+# is that project's repository and points at http://www.librecv.org. The CV
+# editor repository is not listed. The Kornia docs below use the anchor text
+# "LibreCV community" for https://librecv.org/. Those are listed page by page.
+# The guest-post host is spam, so the whole domain is listed. This file has
+# not been uploaded to Search Console.
 
 https://eventyay.com/ev/fa96ae2c/speakers/
 https://eventyay.com/ev/fa96ae2c/speakers/lspk6020/
+https://github.com/LibreCV
+https://actu.epfl.ch/news/icip-2021-ieee-international-conference-on-image-p/
+https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/filters/canny.html
+https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/filters/motion.html
+https://kornia.readthedocs.io/en/v0.6.3/filters.html
+https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/filters/unsharp.html
+https://kornia.readthedocs.io/en/v0.6.3/community/faqs.html
+https://kornia.readthedocs.io/en/v0.6.3/enhance.html
+https://kornia.readthedocs.io/en/v0.6.3/geometry.camera.pinhole.html
+domain:007eaglegaze.online

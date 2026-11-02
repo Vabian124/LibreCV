@@ -795,7 +795,7 @@ const I18N_EN = {
     site: {
         title: "Libre CV - Free Open Source CV Builder, No Account",
         skip: "Skip to the builder",
-        lead: "Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.",
+        lead: "Free open-source CV or motivation letter stays in the browser. No account. Not LibreCV's computer-vision association or SimpleCV.",
         distinct: "This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.",
         account: "LibreCV is a free editor for a CV or a motivation letter. There is no account. The document stays in this browser. You choose a CV or a letter, then start step by step, from a blank page, from pasted text, from demo data, or from an AI template that stays on this device. You design the page with blocks. The download is a PDF whose text can be selected. Saves, in the header, keeps more than one copy in this browser. Reset clears the open document and every saved copy. Nothing is uploaded.",
         how: "A step-by-step guide walks you through it. An AI template stays on this device, or you paste an answer from any model. You design a page, not a markdown file.",

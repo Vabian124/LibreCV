@@ -104,6 +104,14 @@
 
 @media (max-width: 720px) {
     .setup { padding: 16px 16px 12px; }
+    .lang-switch button,
+    .lang-switch a {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    .setup .saves-open,
+    .setup-nav .btn,
+    .setup-nav .btn-primary { min-height: 44px; }
     .setup-step { margin: 8px auto 16px; }
     #setup-kicker { flex: 1 1 100%; }
     .setup-step h1, .setup-step h2, .guide-panel h2 { font-size: 32px; }

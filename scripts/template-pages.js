@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.join(__dirname, "..");
-const asset = "24";
+const asset = "25";
 const pdfCli = require("./pdf.js");
 
 function readCatalog(id) {

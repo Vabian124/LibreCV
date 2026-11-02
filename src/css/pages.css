@@ -150,6 +150,15 @@ body.pdf-exporting .site-foot { display: none; }
 @media (max-width: 720px) {
     .sample-split, .sample-cols { grid-template-columns: 1fr; }
     .sample p { overflow-wrap: anywhere; }
+    .site-foot { font-size: 16px; }
+    .site-faq h3 { font-size: 16px; }
+    .site-faq summary { min-height: 44px; padding: 10px 0; }
+    .site-foot .guide-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 8px 10px;
+    }
 }
 
 button.quiet-link {

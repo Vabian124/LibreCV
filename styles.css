@@ -1693,6 +1693,14 @@ body.pdf-exporting .editable.is-blank::before { content: none !important; }
 
 @media (max-width: 720px) {
     .setup { padding: 16px 16px 12px; }
+    .lang-switch button,
+    .lang-switch a {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    .setup .saves-open,
+    .setup-nav .btn,
+    .setup-nav .btn-primary { min-height: 44px; }
     .setup-step { margin: 8px auto 16px; }
     #setup-kicker { flex: 1 1 100%; }
     .setup-step h1, .setup-step h2, .guide-panel h2 { font-size: 32px; }
@@ -1867,6 +1875,15 @@ body.pdf-exporting .site-foot { display: none; }
 @media (max-width: 720px) {
     .sample-split, .sample-cols { grid-template-columns: 1fr; }
     .sample p { overflow-wrap: anywhere; }
+    .site-foot { font-size: 16px; }
+    .site-faq h3 { font-size: 16px; }
+    .site-faq summary { min-height: 44px; padding: 10px 0; }
+    .site-foot .guide-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 8px 10px;
+    }
 }
 
 button.quiet-link {
