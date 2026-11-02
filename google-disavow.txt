@@ -1,0 +1,19 @@
+# Google Search Console disavow file for https://librecv.org/
+# This file is not submitted automatically. Upload it yourself in Search Console
+# only if you want Google to ignore the links below. Do not disavow the public
+# GitHub repository or other links that point at this CV editor.
+#
+# Checked 2 Nov 2026. The crawl-stats export for 30-31 Oct 2026 does not name
+# referring URLs. Search Console lists this speakers page as the referring page
+# for the http homepage:
+# https://eventyay.com/ev/fa96ae2c/speakers/
+# That page is the FOSSASIA Summit 2021 speaker list. Its speaker data includes
+# Edgar Riba, creator of the Kornia library. The biography links to LibreCV.org
+# and calls it a nonprofit he co-founded with Kornia. His speaker page also
+# contains that link, and a session titled "LibreCV: a Free and Open Source
+# Computer Vision and Machine Learning Organisation". Those URLs are about the
+# computer-vision project, not this CV editor. Kornia.org itself is not listed
+# here, because this check did not show that site linking here.
+
+https://eventyay.com/ev/fa96ae2c/speakers/
+https://eventyay.com/ev/fa96ae2c/speakers/lspk6020/

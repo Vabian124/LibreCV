@@ -325,6 +325,49 @@ templatePages.pages.forEach(function (page) {
 });
 if (sitemap.indexOf("https://librecv.org/cli/") < 0) fail("sitemap is missing the PDF command");
 if (editor.indexOf("function openRequestedTemplate()") < 0) fail("the editor cannot open a named block");
+if (sitemap.indexOf("http://librecv.org") !== -1) fail("sitemap contains an http URL for this site");
+if (sitemap.split("<loc>https://librecv.org/</loc>")[1].slice(0, 80).indexOf("2026-11-02") < 0) {
+    fail("the homepage sitemap date was not refreshed");
+}
+if (sitemap.split("templates/nursing/document.pdf</loc>")[1].slice(0, 80).indexOf("2026-10-31") < 0) {
+    fail("an unchanged PDF sitemap date was refreshed");
+}
+if (robots.indexOf("Sitemap: https://librecv.org/sitemap.xml") === -1) fail("robots.txt does not advertise the sitemap");
+if (llms.indexOf("http://librecv.org") !== -1 || home.indexOf("http://librecv.org") !== -1) {
+    fail("a public page URL still uses http");
+}
+const nlDistinct = "Deze LibreCV schrijft een CV of een motivatiebrief. Het is niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.";
+if (nlHome.indexOf(nlDistinct) < 0 || nlHome.indexOf(nlDistinct) > nlHome.indexOf("Wat je ermee doet")) {
+    fail("the Dutch homepage does not say what this LibreCV is before the guide");
+}
+if (home.indexOf('data-i18n="site.account"') === -1) fail("the homepage footer does not explain the editor");
+["/nl/", "/motivation-letter/", "/templates/", "/privacy/", "/cli/", "/templates/software-engineer/", "/templates/software-engineer/letter/", "/templates/nursing/", "/templates/nursing/letter/"].forEach(function (href) {
+    if (home.indexOf('href="' + href + '"') === -1) fail("the homepage does not link " + href);
+});
+if (nlHome.indexOf('href="/nl/cli/"') === -1 || nlHome.indexOf('href="/nl/privacy/"') === -1) {
+    fail("the Dutch homepage is missing a public page link");
+}
+const htaccess = fs.readFileSync(path.join(root, ".htaccess"), "utf8");
+if (htaccess.indexOf("AddCharset UTF-8 .html") === -1) fail("HTML files do not get a UTF-8 charset");
+if (htaccess.indexOf('Header set Content-Type "text/html; charset=UTF-8"') === -1) fail("the HTML content type has no charset");
+if (htaccess.indexOf('Content-Type "image/') !== -1 || htaccess.indexOf("Content-Type \"text/css\"") !== -1) {
+    fail("a non-HTML file is forced to a content type");
+}
+const touchIcon = fs.readFileSync(path.join(root, "icon-192.png"));
+if (touchIcon.slice(0, 8).toString("hex") !== "89504e470d0a1a0a" || touchIcon.readUInt32BE(16) !== 192) {
+    fail("icon-192.png is not the 192px PNG");
+}
+const disavow = fs.readFileSync(path.join(root, "google-disavow.txt"), "utf8");
+if (!disavow.startsWith("#")) fail("the disavow file needs a comment header");
+if (disavow.indexOf("https://eventyay.com/ev/fa96ae2c/speakers/") === -1) fail("the disavow file drops the speakers page");
+if (disavow.indexOf("https://eventyay.com/ev/fa96ae2c/speakers/lspk6020/") === -1) fail("the disavow file drops the speaker profile");
+if (/github\.com\/Vabian124/i.test(disavow)) fail("the disavow file names this repository");
+pages.forEach(function (page) {
+    const html = fs.readFileSync(path.join(root, page[0]), "utf8");
+    if (html.indexOf('rel="apple-touch-icon" href="/icon-192.png"') === -1) {
+        fail(page[0] + " does not link icon-192.png");
+    }
+});
 
 const pdfCli = require("./pdf.js");
 const PDFLib = require(path.join(root, "vendor", "pdf-lib.min.js"));

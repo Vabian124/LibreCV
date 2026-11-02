@@ -3,10 +3,14 @@
 # full URL, including the ?v= query. Do not add a page cache in front of this.
 AddType image/x-icon .ico
 AddType application/pdf .pdf
+AddCharset UTF-8 .html
 
 <IfModule mod_headers.c>
   <FilesMatch "\.(html|txt|xml|json)$">
     Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Content-Type "text/html; charset=UTF-8"
   </FilesMatch>
   <FilesMatch "\.(js|css|svg|png|ico|jpe?g|webp|woff2|ttf|pdf)$">
     Header set Cache-Control "public, max-age=604800"

@@ -410,6 +410,7 @@ function render(page) {
         "    <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"96x96\" type=\"image/x-icon\">\n" +
         "    <link rel=\"icon\" href=\"/favicon.png\" sizes=\"96x96\" type=\"image/png\">\n" +
         "    <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\">\n" +
+        "    <link rel=\"apple-touch-icon\" href=\"/icon-192.png\">\n" +
         "    <link rel=\"manifest\" href=\"/manifest.json\">\n" +
         "    <link rel=\"stylesheet\" href=\"/styles.css?v=" + asset + "\">\n" +
         "    <script type=\"application/ld+json\">\n" +

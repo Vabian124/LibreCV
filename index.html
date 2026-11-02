@@ -34,6 +34,7 @@
     <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon">
     <link rel="icon" href="/favicon.png" sizes="96x96" type="image/png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon-192.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -117,6 +118,7 @@
         </noscript>
         <a class="skip" href="#setup-title-1" data-i18n="site.skip">Skip to the builder</a>
         <h1 class="site-title">Libre CV - Free Open Source CV Builder, No Account</h1>
+        <p class="setup-lead" data-i18n="site.distinct">This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.</p>
         <div class="setup-top">
             <p class="kicker" id="setup-kicker">LibreCV. No account.</p>
             <div class="setup-dots" id="setup-dots" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -315,6 +317,7 @@
         <footer class="site-foot" id="site-foot">
             <p data-i18n="site.lead">Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.</p>
             <p data-i18n="site.distinct">This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.</p>
+            <p data-i18n="site.account">LibreCV is a free editor for a CV or a motivation letter. There is no account. The document stays in this browser. You choose a CV or a letter, then start step by step, from a blank page, from pasted text, from demo data, or from an AI template that stays on this device. You design the page with blocks. The download is a PDF whose text can be selected. Saves, in the header, keeps more than one copy in this browser. Reset clears the open document and every saved copy. Nothing is uploaded.</p>
             <p><span data-i18n="site.how">A step-by-step guide walks you through it. An AI template stays on this device, or you paste an answer from any model. You design a page, not a markdown file.</span> <a href="https://github.com/Vabian124/LibreCV" data-i18n="site.github">Source code on GitHub</a></p>
             <details class="site-faq" id="faq">
                 <summary data-i18n="site.faqTitle">Questions</summary>
@@ -331,14 +334,18 @@
                 <h3 data-i18n="site.qCode">What license is the code under?</h3>
                 <p data-i18n="site.aCode">The project's own code is CC0, as close to the public domain as the law allows. The bundled libraries keep their own licenses.</p>
             </details>
-            <p class="seo-links" id="more-pages">
-                <span data-i18n="site.seoNote">Only here for search engines.</span>
-                <a href="/privacy/" data-i18n="site.privacy">Privacy</a>
-                <a href="/templates/" data-i18n="site.examples">Examples</a>
-                <a href="/cli/" data-i18n="site.cli">PDF command</a>
-                <a href="/motivation-letter/" data-i18n="site.letterPage">Motivation letter</a>
+            <p data-i18n="site.seoNote">Pages on this site.</p>
+            <nav class="guide-links" id="more-pages" aria-label="More pages">
                 <a href="/nl/" data-i18n="site.dutchPage">Nederlands</a>
-            </p>
+                <a href="/motivation-letter/" data-i18n="site.letterPage">Motivation letter</a>
+                <a href="/templates/" data-i18n="site.examples">Examples</a>
+                <a href="/templates/software-engineer/">Software engineer CV</a>
+                <a href="/templates/software-engineer/letter/">Software engineer letter</a>
+                <a href="/templates/nursing/">Nursing CV</a>
+                <a href="/templates/nursing/letter/">Nursing letter</a>
+                <a href="/privacy/" data-i18n="site.privacy">Privacy</a>
+                <a href="/cli/" data-i18n="site.cli">PDF command</a>
+            </nav>
         </footer>
     </main>
 
@@ -409,7 +416,7 @@
         </div>
     </div>
     <input id="photo-file" type="file" accept="image/*" hidden>
-    <script src="/editor.js?v=26" defer></script>
+    <script src="/editor.js?v=27" defer></script>
     <script src="/feedback/open.js?v=2" defer></script>
 </body>
 </html>

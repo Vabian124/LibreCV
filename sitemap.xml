@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://librecv.org/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/"/>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/"/>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://librecv.org/motivation-letter/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/motivation-letter/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/motivatiebrief/"/>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/motivatiebrief/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/motivation-letter/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/motivatiebrief/"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://librecv.org/templates/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/"/>
@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://librecv.org/templates/software-engineer/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/software-engineer/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/softwareontwikkelaar/"/>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://librecv.org/templates/software-engineer/letter/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/software-engineer/letter/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/softwareontwikkelaar/brief/"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://librecv.org/templates/nursing/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/nursing/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/verpleegkundige/"/>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://librecv.org/templates/nursing/letter/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/nursing/letter/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/verpleegkundige/brief/"/>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/sjablonen/softwareontwikkelaar/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/software-engineer/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/softwareontwikkelaar/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/sjablonen/softwareontwikkelaar/brief/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/software-engineer/letter/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/softwareontwikkelaar/brief/"/>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/sjablonen/verpleegkundige/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/nursing/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/verpleegkundige/"/>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/sjablonen/verpleegkundige/brief/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/templates/nursing/letter/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/sjablonen/verpleegkundige/brief/"/>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://librecv.org/privacy/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/privacy/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/privacy/"/>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/privacy/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/privacy/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/privacy/"/>
@@ -122,7 +122,7 @@
   </url>
   <url>
     <loc>https://librecv.org/cli/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/cli/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/cli/"/>
@@ -170,7 +170,7 @@
   </url>
   <url>
     <loc>https://librecv.org/nl/cli/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="en" href="https://librecv.org/cli/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://librecv.org/nl/cli/"/>
