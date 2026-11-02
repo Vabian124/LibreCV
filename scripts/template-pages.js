@@ -285,7 +285,7 @@ const pages = [
         lang: "nl",
         url: "https://librecv.org/nl/sjablonen/verpleegkundige/",
         pair: "https://librecv.org/templates/nursing/",
-        title: "CV verpleegkundige — LibreCV",
+        title: "Gratis CV verpleegkundige, zonder account — LibreCV",
         description: "Gratis cv voor een verpleegkundige. Geen account en geen betaalmuur. Esmee Hof is verzonnen. Geen zorgadvies.",
         h1: "CV verpleegkundige",
         lead: "Eerst de registratie, daarna de afdeling en de dienst. Dit is geen zorgadvies. Geen account en geen betaling voor de PDF.",
