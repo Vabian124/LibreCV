@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Libre CV - Free Open Source CV</title>
-    <meta name="description" content="Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. Not the LibreCV computer-vision association or the SimpleCV Python library.">
+    <title>Libre CV - Free Open Source CV Builder, No Account</title>
+    <meta name="description" content="Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.">
     <link rel="canonical" href="https://librecv.org/">
     <link rel="alternate" hreflang="en" href="https://librecv.org/">
     <link rel="alternate" hreflang="nl" href="https://librecv.org/nl/">
@@ -16,13 +16,13 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="LibreCV">
     <meta property="og:url" content="https://librecv.org/">
-    <meta property="og:title" content="Libre CV - Free Open Source CV">
-    <meta property="og:description" content="Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. Not the LibreCV computer-vision association or the SimpleCV Python library.">
+    <meta property="og:title" content="Libre CV - Free Open Source CV Builder, No Account">
+    <meta property="og:description" content="Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="nl_NL">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Libre CV - Free Open Source CV">
-    <meta name="twitter:description" content="Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. Not the LibreCV computer-vision association or the SimpleCV Python library.">
+    <meta name="twitter:title" content="Libre CV - Free Open Source CV Builder, No Account">
+    <meta name="twitter:description" content="Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.">
     <meta name="twitter:image" content="https://librecv.org/og.png">
     <meta name="twitter:image:alt" content="LibreCV, a free CV and motivation-letter builder. No account.">
     <meta property="og:image" content="https://librecv.org/og.png">
@@ -41,7 +41,7 @@
         "name": "Libre CV",
         "alternateName": "LibreCV",
         "url": "https://librecv.org/",
-        "description": "Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. The project's own code is CC0 public domain. Not the LibreCV computer-vision association, and not the SimpleCV Python library. The only site is https://librecv.org/. There is no GitHub Pages site.",
+        "description": "Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web",
         "browserRequirements": "Requires JavaScript. Runs in the browser.",
@@ -56,6 +56,18 @@
             "priceCurrency": "USD"
         },
         "featureList": "No account, document stays in the browser, several saved copies, step-by-step guide, on-device AI template, selectable-text PDF"
+    }
+    </script>
+    <script type="application/ld+json" id="org-ld">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Libre CV",
+        "alternateName": "LibreCV",
+        "url": "https://librecv.org/",
+        "logo": "https://librecv.org/favicon.png",
+        "sameAs": "https://github.com/Vabian124/LibreCV",
+        "description": "Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library."
     }
     </script>
     <script type="application/ld+json" id="faq-ld">
@@ -96,7 +108,7 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="/styles.css?v=22">
+    <link rel="stylesheet" href="/styles.css?v=23">
 </head>
 <body data-pane="page">
     <main id="view-setup" class="setup">
@@ -104,6 +116,7 @@
             <p class="noscript-note">This page is readable without scripts. The buttons need scripts before they can build a document. Deze pagina is leesbaar zonder scripts. De knoppen hebben scripts nodig om een document te maken.</p>
         </noscript>
         <a class="skip" href="#setup-title-1" data-i18n="site.skip">Skip to the builder</a>
+        <h1 class="site-title">Libre CV - Free Open Source CV Builder, No Account</h1>
         <div class="setup-top">
             <p class="kicker" id="setup-kicker">LibreCV. No account.</p>
             <div class="setup-dots" id="setup-dots" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -120,7 +133,7 @@
         </div>
 
         <section class="setup-step" data-setup-step="1">
-            <h1 id="setup-title-1" data-i18n="setup.title1">What are we making?</h1>
+            <h2 id="setup-title-1" data-i18n="setup.title1">What are we making?</h2>
             <p class="setup-lead" data-i18n="setup.hint1">A CV and a motivation letter are two separate documents.</p>
             <div class="kind-grid">
                 <button type="button" class="kind-card" data-kind="cv">
@@ -300,7 +313,7 @@
             <button type="button" class="btn-primary" id="setup-generate" data-i18n="setup.generate" hidden>Create document</button>
         </footer>
         <footer class="site-foot" id="site-foot">
-            <p data-i18n="site.lead">Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. Not the LibreCV computer-vision association or the SimpleCV Python library.</p>
+            <p data-i18n="site.lead">Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.</p>
             <p data-i18n="site.distinct">This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.</p>
             <p><span data-i18n="site.how">A step-by-step guide walks you through it. An AI template stays on this device, or you paste an answer from any model. You design a page, not a markdown file.</span> <a href="https://github.com/Vabian124/LibreCV" data-i18n="site.github">Source code on GitHub</a></p>
             <details class="site-faq" id="faq">
@@ -368,7 +381,7 @@
             <h2 id="crop-title" data-i18n="photo.title">Frame the photo</h2>
             <p class="setup-lead" data-i18n="photo.hint">Drag the photo inside the frame. Fit shows the whole photo, max fills the frame. Photo size is how large it is on the page.</p>
             <button type="button" class="btn btn-accent" id="crop-change" data-i18n="photo.replace">Different photo</button>
-            <div class="crop-stage"><img id="crop-image" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></div>
+            <div class="crop-stage"><img id="crop-image" alt="Photo to frame" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></div>
             <div class="crop-row">
                 <span id="crop-page-label" data-i18n="photo.onPage">On the page</span>
                 <input id="crop-page-size" type="range" min="36" max="100" step="2" aria-labelledby="crop-page-label">
@@ -396,7 +409,7 @@
         </div>
     </div>
     <input id="photo-file" type="file" accept="image/*" hidden>
-    <script src="/editor.js?v=25" defer></script>
+    <script src="/editor.js?v=26" defer></script>
     <script src="/feedback/open.js?v=2" defer></script>
 </body>
 </html>

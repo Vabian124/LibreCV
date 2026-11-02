@@ -89,7 +89,7 @@
         padding: 8px 10px;
     }
     .topbar .spacer { display: none; }
-    .topbar h1 { max-width: none; flex: 1 1 140px; }
+    #doc-title { max-width: none; flex: 1 1 140px; }
     .ai-menu { position: static; }
     .ai-panel {
         left: 12px;

@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require __DIR__ . '/../lib.php';
 
-const FB_ASSET = '/styles.css?v=22';
+const FB_ASSET = '/styles.css?v=23';
 
 function fb_redirect(string $path): void {
     header('Location: ' . $path, true, 303);

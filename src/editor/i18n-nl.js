@@ -357,7 +357,7 @@ const I18N_NL = {
     site: {
         title: "Libre CV - Gratis open source CV",
         skip: "Naar de editor",
-        lead: "Libre CV is een gratis open-source editor voor een CV of een motivatiebrief. Geen account. Het document blijft in de browser. Niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
+        lead: "Gratis open-source editor: CV of motivatiebrief. Geen account. Blijft in de browser. Niet de LibreCV-vereniging voor computervisie of Python-bibliotheek SimpleCV.",
         distinct: "Deze LibreCV schrijft een CV of een motivatiebrief. Het is niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
         how: "Een stap-voor-stap gids leidt je erdoor. Een AI-sjabloon blijft op dit apparaat, of je plakt een antwoord uit een model terug. Je ontwerpt een pagina, geen markdown-bestand.",
         github: "Broncode op GitHub",

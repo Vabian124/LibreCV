@@ -408,7 +408,7 @@ const I18N_NL = {
     site: {
         title: "Libre CV - Gratis open source CV",
         skip: "Naar de editor",
-        lead: "Libre CV is een gratis open-source editor voor een CV of een motivatiebrief. Geen account. Het document blijft in de browser. Niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
+        lead: "Gratis open-source editor: CV of motivatiebrief. Geen account. Blijft in de browser. Niet de LibreCV-vereniging voor computervisie of Python-bibliotheek SimpleCV.",
         distinct: "Deze LibreCV schrijft een CV of een motivatiebrief. Het is niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
         how: "Een stap-voor-stap gids leidt je erdoor. Een AI-sjabloon blijft op dit apparaat, of je plakt een antwoord uit een model terug. Je ontwerpt een pagina, geen markdown-bestand.",
         github: "Broncode op GitHub",
@@ -792,9 +792,9 @@ const I18N_EN = {
         url: "https address of a picture"
     },
     site: {
-        title: "Libre CV - Free Open Source CV",
+        title: "Libre CV - Free Open Source CV Builder, No Account",
         skip: "Skip to the builder",
-        lead: "Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. Not the LibreCV computer-vision association or the SimpleCV Python library.",
+        lead: "Free open-source editor for a CV or motivation letter. No account. Stays in the browser. Not the LibreCV computer-vision association or SimpleCV Python library.",
         distinct: "This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.",
         how: "A step-by-step guide walks you through it. An AI template stays on this device, or you paste an answer from any model. You design a page, not a markdown file.",
         github: "Source code on GitHub",
@@ -5082,7 +5082,7 @@ function mountTools() {
     const zoomSlot = document.getElementById("zoom-slot");
     if (zoomSlot) zoomSlot.appendChild(zoom);
     topbar.append(
-        h("h1", { id: "doc-title" }),
+        h("p", { id: "doc-title" }),
         h("div", { class: "lang-switch" }, [nl, en]),
         h("span", { id: "save-state", class: "save-state" }),
         h("div", { class: "spacer" }),

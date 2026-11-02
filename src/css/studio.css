@@ -15,7 +15,7 @@
     z-index: 5;
 }
 
-.topbar h1 {
+#doc-title {
     margin: 0;
     flex: 1 1 auto;
     min-width: 0;

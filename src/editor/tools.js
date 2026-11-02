@@ -252,7 +252,7 @@ function mountTools() {
     const zoomSlot = document.getElementById("zoom-slot");
     if (zoomSlot) zoomSlot.appendChild(zoom);
     topbar.append(
-        h("h1", { id: "doc-title" }),
+        h("p", { id: "doc-title" }),
         h("div", { class: "lang-switch" }, [nl, en]),
         h("span", { id: "save-state", class: "save-state" }),
         h("div", { class: "spacer" }),
