@@ -406,9 +406,9 @@ const I18N_NL = {
         url: "https-adres van een foto"
     },
     site: {
-        title: "Gratis CV maken, geen account — LibreCV",
+        title: "Libre CV - Gratis open source CV",
         skip: "Naar de editor",
-        lead: "LibreCV is een gratis editor voor een CV of een motivatiebrief. Geen account. Het document blijft op deze computer. De eigen code is publiek domein (CC0).",
+        lead: "Libre CV is een gratis open-source editor voor een CV of een motivatiebrief. Geen account. Het document blijft in de browser. Niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
         distinct: "Deze LibreCV schrijft een CV of een motivatiebrief. Het is niet de LibreCV-vereniging voor computervisie, en niet de Python-bibliotheek SimpleCV.",
         how: "Een stap-voor-stap gids leidt je erdoor. Een AI-sjabloon blijft op dit apparaat, of je plakt een antwoord uit een model terug. Je ontwerpt een pagina, geen markdown-bestand.",
         github: "Broncode op GitHub",
@@ -792,9 +792,9 @@ const I18N_EN = {
         url: "https address of a picture"
     },
     site: {
-        title: "Free CV builder, no account — LibreCV",
+        title: "Libre CV - Free Open Source CV",
         skip: "Skip to the builder",
-        lead: "LibreCV is a free CV and motivation-letter builder. No account. The document stays on this computer. The project's own code is public domain (CC0).",
+        lead: "Libre CV is a free open-source editor for a CV or a motivation letter. No account. The document stays in the browser. Not the LibreCV computer-vision association or the SimpleCV Python library.",
         distinct: "This LibreCV writes a CV or a motivation letter. It is not the LibreCV computer-vision association, and it is not the SimpleCV Python library.",
         how: "A step-by-step guide walks you through it. An AI template stays on this device, or you paste an answer from any model. You design a page, not a markdown file.",
         github: "Source code on GitHub",

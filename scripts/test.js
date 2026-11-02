@@ -97,6 +97,12 @@ if (icoFile.length < 22 || icoFile.readUInt16LE(0) !== 0 || icoFile.readUInt16LE
     fail("favicon.ico is not a real ICO file");
 }
 if (icoFile[0] === 0x3c) fail("favicon.ico is the HTML 404 page");
+const icoImage = icoFile.readUInt32LE(18);
+if (icoFile.readUInt32LE(icoImage) !== 40) fail("favicon.ico is a PNG inside an ICO, which Google often skips");
+const icoWidth = icoFile.readInt32LE(icoImage + 4);
+if (icoWidth < 48 || icoWidth % 48 !== 0 || icoFile.readInt32LE(icoImage + 8) !== icoWidth * 2) {
+    fail("favicon.ico bitmap is not a square multiple of 48");
+}
 
 if (editor.indexOf("function boot()") === -1 || editor.indexOf("\nboot();\n") === -1) {
     fail("the built editor does not boot");
