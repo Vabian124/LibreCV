@@ -18,8 +18,10 @@ const keyPath = process.env.GSC_SERVICE_ACCOUNT_KEY_PATH
     || path.join(os.homedir(), ".config", "gsc", "gsc-mcp-key.json");
 const inspectionUrls = [
     "https://librecv.org/",
+    "http://librecv.org/",
     "https://librecv.org/nl/",
-    "https://librecv.org/sitemap.xml"
+    "https://librecv.org/sitemap.xml",
+    "https://librecv.org/favicon.ico"
 ];
 const siteCandidates = [
     "sc-domain:librecv.org",

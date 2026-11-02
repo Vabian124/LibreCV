@@ -1,7 +1,8 @@
 # Google Search Console disavow file for https://librecv.org/
-# This file is not submitted automatically. Upload it yourself in Search Console
-# only if you want Google to ignore the links below. Do not disavow the public
-# GitHub repository or other links that point at this CV editor.
+# Google has no API for this file. Sign in as the owner and upload it at
+# https://search.google.com/search-console/disavow-links
+# Choose the domain property librecv.org. Do not disavow this CV editor's
+# own repository.
 #
 # Checked 2 Nov 2026. The crawl-stats export for 30-31 Oct 2026 does not name
 # referring URLs. Search Console lists this speakers page as the referring page
@@ -15,23 +16,22 @@
 # computer-vision project, not this CV editor. Kornia.org itself is not listed
 # here, because this check did not show that site linking here.
 #
-# Added 2 Nov 2026 from a Semrush backlink sample. These are the computer-vision
-# project or an obvious guest-post page, not this CV editor. github.com/LibreCV
-# is that project's repository and points at http://www.librecv.org. The CV
-# editor repository is not listed. The Kornia docs below use the anchor text
-# "LibreCV community" for https://librecv.org/. Those are listed page by page.
-# The guest-post host is spam, so the whole domain is listed. This file has
-# not been uploaded to Search Console.
+# The https homepage also names these referring pages. They describe the
+# computer-vision project, and the older page list missed these versions:
+# https://kornia.readthedocs.io/en/v0.6.6/_modules/
+# https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/geometry/epipolar/numeric.html
+# https://kornia.readthedocs.io/en/latest/geometry.depth.html
+# The docs host is listed once, as a domain. github.com/LibreCV is that
+# project's repository and points at http://www.librecv.org. The guest-post
+# host is spam, so that whole domain is listed.
+# https://librecv.org/login and the old /t/ forum path are this site. Both
+# return 404, so they are not listed.
+# This file has not been uploaded. The upload page asks for the owner's
+# Google account, and the service account cannot sign in there.
 
 https://eventyay.com/ev/fa96ae2c/speakers/
 https://eventyay.com/ev/fa96ae2c/speakers/lspk6020/
 https://github.com/LibreCV
 https://actu.epfl.ch/news/icip-2021-ieee-international-conference-on-image-p/
-https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/filters/canny.html
-https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/filters/motion.html
-https://kornia.readthedocs.io/en/v0.6.3/filters.html
-https://kornia.readthedocs.io/en/v0.6.3/_modules/kornia/filters/unsharp.html
-https://kornia.readthedocs.io/en/v0.6.3/community/faqs.html
-https://kornia.readthedocs.io/en/v0.6.3/enhance.html
-https://kornia.readthedocs.io/en/v0.6.3/geometry.camera.pinhole.html
+domain:kornia.readthedocs.io
 domain:007eaglegaze.online

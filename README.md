@@ -22,6 +22,14 @@ These pages are separate from the editor, and they are listed in `sitemap.xml`:
 
 `/step-1`, `/step-2`, `/step-3` and `/editor` are the editor itself. They stay out of the sitemap. The canonical URL of the editor is `https://librecv.org/`.
 
+## Search Console
+
+The property is the domain `librecv.org`. Submit `https://librecv.org/sitemap.xml` there after a deploy. `node tools/gsc/pull.js` saves a sample under `gsc-data/`. That folder is gitignored. The service-account key stays outside this repository: set `GSC_SERVICE_ACCOUNT_KEY_PATH`, or use `~/.config/gsc/gsc-mcp-key.json`. The pull never prints the key.
+
+`node tools/seo/audit.js` reads the local pages. `node tools/seo/status.js` requests every URL in the sitemap. `npm test` and `npm run lint` still have to pass.
+
+`google-disavow.txt` lists links about the computer-vision project, and one spam domain. It does not list this repository. Google takes that file only from a signed-in owner at [the disavow page](https://search.google.com/search-console/disavow-links). There is no API for it. The Indexing API accepts job posts and livestreams, so it cannot ask Google to recrawl this editor.
+
 Feedback is a button in the editor header and in the footer of each setup step. The form loads when you open it. Send privately, or open a GitHub issue. The issue template tells an assistant not to paste a CV. Private notes are read at `/feedback/desk/`. That address is not linked from the public pages and is not indexed. Its password is not in this repository. A note can be deleted there, which removes the message and any document text. The private form uses a self-hosted ALTCHA check. Instructions for an assistant are in `feedback.txt`.
 
 You design a page. It is not a markdown document.
