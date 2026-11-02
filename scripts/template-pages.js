@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 const root = path.join(__dirname, "..");
-const asset = "23";
+const asset = "24";
 const pdfCli = require("./pdf.js");
 
 function readCatalog(id) {
@@ -407,7 +407,7 @@ function render(page) {
         "    <meta property=\"og:image:width\" content=\"1200\">\n" +
         "    <meta property=\"og:image:height\" content=\"630\">\n" +
         "    <meta property=\"og:image:alt\" content=\"" + esc(imageAlt) + "\">\n" +
-        "    <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"96x96\" type=\"image/x-icon\">\n" +
+        "    <link rel=\"icon\" href=\"/favicon.ico\" sizes=\"48x48\" type=\"image/x-icon\">\n" +
         "    <link rel=\"icon\" href=\"/favicon.png\" sizes=\"96x96\" type=\"image/png\">\n" +
         "    <link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\">\n" +
         "    <link rel=\"apple-touch-icon\" href=\"/icon-192.png\">\n" +

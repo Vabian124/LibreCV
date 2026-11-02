@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require __DIR__ . '/../lib.php';
 
-const FB_ASSET = '/styles.css?v=23';
+const FB_ASSET = '/styles.css?v=24';
 
 function fb_redirect(string $path): void {
     header('Location: ' . $path, true, 303);
@@ -38,7 +38,7 @@ function fb_layout(string $title, string $body): void {
     echo '<meta name="robots" content="noindex, nofollow, noarchive">';
     echo '<meta name="referrer" content="no-referrer">';
     echo '<title>' . fb_h($title) . '</title>';
-    echo '<link rel="icon" href="/favicon.ico" sizes="96x96" type="image/x-icon">';
+    echo '<link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon">';
     echo '<link rel="icon" href="/favicon.png" sizes="96x96" type="image/png">';
     echo '<link rel="icon" href="/favicon.svg" type="image/svg+xml">';
     echo '<link rel="stylesheet" href="' . fb_h(FB_ASSET) . '">';

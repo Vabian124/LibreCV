@@ -1809,11 +1809,18 @@ body.pdf-exporting .site-foot { display: none; }
 .pdf-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 
 .site-title {
-    margin: 0 0 12px;
+    width: min(1040px, 100%);
+    margin: 0 auto 12px;
     font-size: 15px;
     line-height: 1.3;
     font-weight: 600;
     letter-spacing: -0.02em;
+}
+
+.setup > .setup-lead {
+    width: min(1040px, 100%);
+    max-width: min(1040px, 100%);
+    margin: 0 auto 12px;
 }
 
 .guide-page h1 {
